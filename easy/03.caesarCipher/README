@@ -1,0 +1,6 @@
+Welcome to cipher day! *dailyProgrammer
+
+Usage:
+	caesarCipher <encrypt|decrypt> <message>
+
+The program adds 20 to each message's char, this cuantity is defined in the CODE macro.
