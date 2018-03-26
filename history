@@ -1,6 +1,9 @@
 1.	25/3/2018	easy	01.simple_dialog
+							c, python
 
 2.	26/3/2018	easy	02.calculator_without_operators
+							c
 
 3.	27/3/2018	easy	03.caesarCipher
 							shift cipher method: replace letters adding fixed cuantity X to the ascii code
+							c
