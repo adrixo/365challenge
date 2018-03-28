@@ -53,8 +53,8 @@ void calcPiramid(int layers, int *message){
  * For example on layers 3/4
  *
  * message:    		2' 			1"
- *			 [one] (two)' and [one] (one)"
- * auxMessage:	[1]  (2)' 	   [1]   (1)"
+ *			[one] (two)' and [one] (one)"
+ * auxMessage:		[1]  (2)' 	   [1]   (1)"
  * 
  * where [n]: quantity of equal digits consecutives 
  * 		 (n): digit (int last)
