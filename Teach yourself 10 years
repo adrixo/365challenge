@@ -1,0 +1,12 @@
+Source	http://norvig.com/21-days.html
+Spanish	http://loro.sourceforge.net/notes/21-dias.html
+
+Let's analyze what a title like Teach Yourself C++* in 24 Hours could mean: 
+
+    - Teach Yourself: In 24 hours you won't have time to write several significant programs, and learn from your successes and failures with them. You won't have time to work with an experienced programmer and understand what it is like to live in a C++ environment. In short, you won't have time to learn much. So the book can only be talking about a superficial familiarity, not a deep understanding. As Alexander Pope said, a little learning is a dangerous thing.
+
+    - C++: In 24 hours you might be able to learn some of the syntax of C++ (if you already know another language), but you couldn't learn much about how to use the language. In short, if you were, say, a Basic programmer, you could learn to write programs in the style of Basic using C++ syntax, but you couldn't learn what C++ is actually good (and bad) for. So what's the point? Alan Perlis once said: "A language that doesn't affect the way you think about programming, is not worth knowing". One possible point is that you have to learn a tiny bit of C++ (or more likely, something like JavaScript or Processing) because you need to interface with an existing tool to accomplish a specific task. But then you're not learning how to program; you're learning to accomplish that task.
+
+    - in 24 Hours: Unfortunately, this is not enough, as the next section shows. 
+
+*: En la versión española ha sido sustituido c++ in 24h por Pascal en Tres días

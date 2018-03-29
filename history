@@ -5,7 +5,8 @@
 							c
 
 3.	27/3/2018	easy	003.caesarCipher
-							shift cipher method: replace letters adding fixed cuantity X to the ascii code
+							shift cipher method: replace letters adding fixed 
+							cuantity X to the ascii code
 							c
 
 4.	28/3/2018	hard	009.simple_recursive_piramid
