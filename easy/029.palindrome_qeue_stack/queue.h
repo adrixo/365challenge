@@ -1,6 +1,8 @@
 #ifndef __COLA_H
 #define __COLA_H
 
+//A queue is just a LIFO data structure
+
 typedef int elementType;
 
 typedef struct celdType { 

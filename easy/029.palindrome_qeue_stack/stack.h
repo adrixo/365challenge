@@ -1,6 +1,8 @@
 #ifndef __PILA_H
 #define __PILA_H
 	
+//A queue is just a FIFO data structure
+
 typedef celdType * Stack;
 
 int createStack(Stack *p);

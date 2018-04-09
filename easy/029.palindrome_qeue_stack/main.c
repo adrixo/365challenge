@@ -7,6 +7,17 @@
 #include "stack.h"
 #include "stack.c"
 
+/*
+
+				The program just use the queue and stack logic
+		word
+
+queue:  order
+		|||||  <- checking if letters are equal
+stack:	redro
+
+*/
+
 int main(){
 	char sentence[100];
 	int i, flag=1;
