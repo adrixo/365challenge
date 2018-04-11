@@ -1,0 +1,13 @@
+
+scissors vs paper
+		CPU1 win
+
+scissors vs scissors
+		Draw
+
+paper vs scissors
+		CPU2 win
+
+scissors vs paper
+		CPU1 win
+
