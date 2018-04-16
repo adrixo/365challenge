@@ -1,0 +1,13 @@
+https://www.reddit.com/r/dailyprogrammer/comments/qlwys/372012_challenge_19_intermediate/
+
+Challenge #19 will use The Adventures of Sherlock Holmes from Project Gutenberg.
+
+wget "http://www.gutenberg.org/cache/epub/1661/pg1661.txt" -O sherlock.txt
+
+/////easy
+Write a program that counts the number of alphanumeric characters there are in The Adventures of Sherlock Holmes.
+
+
+/////intermediate
+The Adventures of Sherlock Holmes is composed of 12 stories. Write a program that counts the number of words in each story. Then, print out the story titles ordered by its word count in descending order followed by how many words each story contains. Exclude the Project Gutenberg header and footer, book title, story titles, and chapters.
+
