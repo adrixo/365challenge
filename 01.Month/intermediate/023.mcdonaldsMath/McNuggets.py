@@ -1,6 +1,9 @@
 
 # The function that determines a McNumber is
 #		f = 6x + 9y + 20z / x,y,z >= 0
+# As we get higher numbers the probability of obtaining a
+# number as a linear combination of the mcnuggets' number
+# increases, so we are gona have the maximum number very close
 
 McNumbers = [ 0 ]
 danger = 0
