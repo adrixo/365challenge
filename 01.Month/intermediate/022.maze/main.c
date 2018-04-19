@@ -33,13 +33,13 @@ void printBoard(int board[SIZE][SIZE], int x, int y){
 			printf("%c", board[i][j]);
 		}
 	}
-	printf("x: %d y: %d\n",x,y);
+	printf("\nx: %d y: %d \nawsd to move - current: ",x,y);
 }
 
 void move(int current, int board[SIZE][SIZE], int *x, int *y){
 	int xNew, yNew;
 	switch(current){
-		case 97:
+		case 119:
 			xNew = *x-1;
 			yNew = *y;
 			break;
@@ -51,7 +51,7 @@ void move(int current, int board[SIZE][SIZE], int *x, int *y){
 			xNew = *x;
 			yNew = *y+1;
 			break;
-		case 119:
+		case 97:
 			xNew = *x;
 			yNew = *y-1;
 			break;
@@ -66,8 +66,8 @@ void move(int current, int board[SIZE][SIZE], int *x, int *y){
 	if(board[xNew][yNew]==35){
 		return;
 	}
-	board[xNew][yNew]==79;
-	board[*x][*y]==46;
+	board[xNew][yNew]=79;
+	board[*x][*y]=46;
 	printf("%c%c\n",board[xNew][yNew],board[*x][*y]);
 
 	*x=xNew;
