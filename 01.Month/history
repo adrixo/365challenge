@@ -1,91 +1,91 @@
-1.	25/3/2018	easy	001.simple_dialog
-							c, python
+1.	25/3/2018	easy		001.simple_dialog
+						c, python
 
-2.	26/3/2018	easy	002.calculator_without_operators
-							c
+2.	26/3/2018	easy		002.calculator_without_operators
+						c
 
-3.	27/3/2018	easy	003.caesarCipher
-							shift cipher method: replace letters adding fixed 
-							cuantity X to the ascii code
-							c
+3.	27/3/2018	easy		003.caesarCipher
+						shift cipher method: replace letters adding fixed 
+						cuantity X to the ascii code
+						c
 
-4.	28/3/2018	hard	009.simple_recursive_piramid
-							c, python
+4.	28/3/2018	hard		009.simple_recursive_piramid
+						c, python
 
-5.	29/3/2018	easy	004.random_Password
-							c, python
+5.	29/3/2018	easy		004.random_Password
+						c, python
 
-6.	30/3/2018	easy	005.password_login
-							c
+6.	30/3/2018	easy		005.password_login
+						c
 
-7.	31/3/2018	easy	006.piNumber
-							c
+7.	31/3/2018	easy		006.piNumber
+						c
 
-8.	1/4/2018	easy	007.morseCode
-							java: to be documented
+8.	1/4/2018	easy		007.morseCode
+						java: to be documented
 
-9.	2/4/2018	hard	009.hangman
-							java: (need an improve)
+9.	2/4/2018	hard		009.hangman
+						java: (need an improve)
 
 10.	3/4/2018	intermediate	011.upside_up_numbers
-							python
+						python
 
 11.	4/4/2018	intermediate	012.factor_a_number
-							c
+						c
 
-12.	5/4/2018	easy			020.prime_numbers
-							python
+12.	5/4/2018	easy		020.prime_numbers
+						python
 
-13. 6/4/2018	hard		012.string_to_tones
-							python
+13.	6/4/2018	hard		012.string_to_tones
+						python
 
 14.	7/4/2018	easy		020.age_calculator
-							perl
+						perl
 
 15.	8/4/2018	easy		029.palindrome_queue_stack
-							c
+						c
 
 16.	9/4/2018	hard		012.calendar
-							java
+						java
 
 17.	10/4/2018	intermediate	015.fleas_grid
-							c
+						c
 
-18. 11/4/2018	hard		013.rock-paper-scissors
-							python
+18.	11/4/2018	hard		013.rock-paper-scissors
+						python
 
 19.	12/4/2018	easy		012.possible_permutations
-							python
+						python
 
 20.	13/4/2018	intermediate	025.binary_translator
-							c
+						c
 
 21.	14/4/2018	intermediate	026.storing_info
-							perl
+						perl
 
 22.	15/4/2018	hard		025.queens_problem
-							c
+						c
 
 23.	16/4/2018	intermediate	019.sherlockAdventures
-							perl
+						perl
 
 24.	17/4/2018	hard		015.socket_connections
-							c
+						c
 
 25.	18/4/2018	intermediate	023.mcdonaldsMath
-							python
+						python
 
 26.	19/4/2018	intermediate	022.maze
-							c
+						c
 
 27.	20/4/2018	hard		022.maze_generator
-							c
+						c
 
 28.	21/4/2018	hard		014.millon_integers
-							c
+						c
 
 29.	22/4/2018	hard		018.square-spiral
-							python
+						python
 
 30.	23/5/2018	hard		029.ascii_graphic_line
-							c
+						c
