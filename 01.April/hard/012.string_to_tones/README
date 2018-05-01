@@ -1,0 +1,13 @@
+String_to_tones.py requires beep instaled on linux systems, its not implemented for windows:
+		#on windows "winsound" should be implemented
+		#import winsound
+		#winsound.Beep(frequency, duration)
+
+The second also needs pygame module on the machine 
+
+https://www.reddit.com/r/dailyprogrammer/comments/pxsew/2202012_challenge_12_difficult/
+
+Write a program which will take string inputs "A", "B", "C", "D", "E", "F", and "G", and make the corresponding notes, in any method of your choosing.
+
+Thanks to electric_machinery for this challenge!
+
