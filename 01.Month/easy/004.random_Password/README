@@ -1,8 +1,0 @@
-Simple random password generator in c and python (34 lines vs 12)
-
-daily challenge:
-You're challenge for today is to create a random password generator!
-
-For extra credit, allow the user to specify the length of the strings he 
-wants to generate!
-
