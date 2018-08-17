@@ -1,6 +1,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
 // Cornacchia algorithm solves Diophantine equation:
 //    x² + dy² = m
@@ -18,8 +19,36 @@
 
 #define MAX 1000
 
+int cornacchia(d, m);
 
 void main()
 {
 
+}
+
+int cornacchia(d, m){
+  int r0 = 1;
+  int r1;
+
+  while( (r0 * r0 + d) %m != 0)
+  {
+    r0++;
+    if(r0 = m)
+      return 1;
+  }
+
+  r1 = m % r0;
+  while( r1*r1 >= m)
+  {
+    r0 = r1;
+    r1 = r0 % r1;
+  }
+
+  //2.1
+  s = sqrt( (m-r1*r1) / d )
+
+  //if(s is int)
+  //  return r_k && s
+  //else
+    return 1;
 }
