@@ -34,6 +34,7 @@ class os:
         if self.tape[self.pointer] == 0:
             while self.instructions[self.instructionsPointer] != ']':
                 self.instructionsPointer += 1
+            self.instructionsPointer += 1
 
     def jumpBackwards(self):
         if self.tape[self.pointer] != 0:
