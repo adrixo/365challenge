@@ -41,11 +41,11 @@ class os:
             while self.instructions[self.instructionsPointer] != '[':
                 self.instructionsPointer -= 1
 
-#++++++++++[>>++++++>+++++++++++>++++++++++>+++++++++>+++>+++++>++++>++++++++>+[<]<-]>>+++++++.>+.-.>+++.<++++.>>+++++++.<<++.+.>+++++.>.<<-.>---.<-----.-.+++++.>>>+++.-.<<-.<+..----.>>>>++++++++.>+++++++..<<<<+.>>>>-.<<<<.++++.------.<+++++.---.>>>>>.<<<++.<<---.>++++++.>>>>+.<<<-.--------.<<+.>>>>>>+++.---.<-.<<<<---.<.>---.>>>>>>.
     def readAndStore(self):
         self.tape[self.pointer] = ord(input("Enter a char: "))
 
     def outputCurrent(self):
+        print("XD")
         print(chr(self.tape[self.pointer]))
 
     # https://www.google.es/search?q=switch+python&oq=switch+python&aqs=chrome.0.69i59j69i57j69i60l2.1810j0j7&sourceid=chrome&ie=UTF-8
@@ -68,11 +68,11 @@ class os:
         while self.instructions[self.instructionsPointer] != 'x':
             self.switchInstruction(self.instructions[self.instructionsPointer])
             self.instructionsPointer += 1
-            print("tape: " , self.tape)
-            print("pointer: " ,self.pointer)
-            print("instructions: " , self.instructions)
-            print("instructions: " , self.instructionsPointer)
-            input()
+            #print("tape: " , self.tape)
+            #print("pointer: " ,self.pointer)
+            #print("instructions: " , self.instructions)
+            #print("instructions: " , self.instructionsPointer)
+            #input()
 
 brainfuck = os(str(input("Enter the orders in a simple string: ")))
 brainfuck.run()
