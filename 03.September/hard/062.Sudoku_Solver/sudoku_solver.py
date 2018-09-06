@@ -15,9 +15,9 @@ class Sudoku:
         self.board.append([7,0,0,0,2,0,4,5,3])
         self.board.append([0,0,0,3,7,0,0,6,9])
 
-    def findNextCellToFill(self,board):
-        for x in range(9):
-            for y in range(9):
+    def findNextCellToFill(self,board,i=0,j=0):
+        for x in range(i,9):
+            for y in range(j,9):
                 if board[x][y] == 0:
                     return x,y
         return -1,-1
@@ -26,22 +26,35 @@ class Sudoku:
         # check horizontal
         combinations = list(itertools.combinations(board[i],2))
         for x in combinations:
-            if x[0] == x[1]:
+            if x[0] == x[1] and x[0] != 0:
                 return False
 
         vertical = []
         for x in range(9):
             vertical.append(board[x][j])
-        combinations = list(itertools.combinations(board[i],2))
+        combinations = list(itertools.combinations(vertical,2))
         for x in combinations:
-            if x[0] == x[1]:
+            if x[0] == x[1] and x[0] != 0:
+                print(x)
                 return False
 
+        square = []
+        squareI = i//3 * 3
+        squareJ = j//3 * 3
+        for x in range(squareI, squareI + 3):
+            for y in range(squareJ, squareJ + 3):
+                square.append(board[x][y])
+        combinations = list(itertools.combinations(square,2))
+        for x in combinations:
+            if x[0] == x[1] and x[0] != 0:
+                return False
+
+        return True
 
     def solveSudoku(self,board):
         i,j = self.findNextCellToFill(board)
-        print(i,j)
         if i == -1:
+            print("Finish!")
             return True
         else:
             for n in range(1,10):
@@ -53,7 +66,6 @@ class Sudoku:
                         return True
                     else:
                         board[i][j] = 0
-
                 else:
                     board[i][j] = 0
 
@@ -79,4 +91,4 @@ class Sudoku:
         return self.board
 
 sudoku = Sudoku()
-sudoku.solveSudoku(sudoku.getBoard())
+sudoku.solveSudoku(sudoku.board)
