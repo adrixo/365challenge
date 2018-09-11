@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <gmp.h>
 
+//Just implemented Fractran
+
 typedef struct frac_s *frac;
 struct frac_s {
 	int n, d;
