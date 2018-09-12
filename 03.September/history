@@ -8,10 +8,25 @@
 						perl
 
 65.	4/9/2018	difficult	064.Weather_Forecast
-						c
+						python
 
 66.	5/9/2018	difficult	065.Magic_Square
-						c
+						python
 
 67.	6/9/2018	difficult	066.Maxiphobic_Heaps
+						c
+
+68.	7/9/2018	intermediate	069.ADFGVX_Cipher
+						c
+
+69.	8/9/2018	intermediate	70.hyperoperator_PythonSwitch
+						python
+
+70.	9/9/2018	intermediate	71.Xnacci
+						c
+
+71.	10/9/2018	hard	71.FRACTRAN
+						c
+
+72.	11/9/2018	easy	72.One_Dimensional_Cellular_Automata
 						c
