@@ -8,11 +8,12 @@ Most challenges belong to daily programmer
 
 The programs are distributed in folders depending on the dificulty:
 
-* /Month/
 ```
-		/Month/easy
-		/Month/medium
-		/Month/hard
+	/Month/easy
+
+	/Month/medium
+
+	/Month/hard
 ```
 Each file number its related with the nº of challenge in dailyprogrammer webpage.
 At the same time, each month has its own folder, where I'll maybe post the vessel logbook.
