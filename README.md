@@ -8,6 +8,7 @@ Most challenges belong to daily programmer
 
 The programs are distributed in folders depending on the dificulty:
 
+* /Month/
 	/easy
 
 	/medium
