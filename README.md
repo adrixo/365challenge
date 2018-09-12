@@ -2,9 +2,9 @@
 Adrián Valera's 365 days programming challenge
 
 Most challenges belong to daily programmer
-
-* ```[dailyprogrammer](https://www.reddit.com/r/dailyprogrammer/wiki/challenges)```
-
+```
+* [dailyprogrammer](https://www.reddit.com/r/dailyprogrammer/wiki/challenges)
+```
 
 The programs are distributed in folders depending on the dificulty:
 
