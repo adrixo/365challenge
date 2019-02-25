@@ -1,0 +1,14 @@
+//Given a binary tree t and two elements of the tree, m and n, with m < n, find
+//the lowest element of the tree (farthest from the root) that is an ancestor of
+//both m and n.
+
+//the flag starts as 0, if 2
+node * findLowest(tree, nodeM, nodeN, flag)
+
+  if(tree.left == nodeM || tree.left == nodeN)
+    findLowest(tree.left, nodeM, nodeN, flag++)
+
+  if(tree.right == nodeM || tree.right == nodeN)
+    findLowest(tree.right, nodeM, nodeN, flag++)
+
+  if(tree.left == NULL && tree.right == NULL && flag == 2)

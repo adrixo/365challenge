@@ -1,0 +1,7 @@
+https://www.reddit.com/r/dailyprogrammer/comments/txl9j/5212012_challenge_55_difficult/
+
+Write a program to implement the Pollard's rho algorithm using both,
+Floyd’s cycle-finding algorithm and Brent’s cycle-finding algorithm ..
+
+Bonus: also compare the timings for the implementation of both the algorithms
+and come up stating whichever is the fastest.
