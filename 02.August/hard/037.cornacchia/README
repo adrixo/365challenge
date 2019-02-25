@@ -1,7 +1,0 @@
-https://www.reddit.com/r/dailyprogrammer/comments/rzdjt/482012_challenge_37_difficult/
-
-Your task is to implement Cornacchia’s algorithm and use it to demonstrate that
- all primes of the form 4k+1 and less than 1000 can be written as the sum of
- two squares.
-
- https://en.wikipedia.org/wiki/Cornacchia's_algorithm
