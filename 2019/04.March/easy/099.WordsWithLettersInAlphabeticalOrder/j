@@ -1,0 +1,2 @@
+isSorted =. -:/:~
++/ (isSorted@>) words

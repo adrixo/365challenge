@@ -1,0 +1,9 @@
+open my $fh, "<", "enable1.txt" or die "Can't open file: $!";
+
+my $count = 0;
+while (<$fh>) {
+	s/[\n\r]*//g;
+	$count++ if ($_ eq (join '', sort split '', $_));
+}
+
+print "$count\n";

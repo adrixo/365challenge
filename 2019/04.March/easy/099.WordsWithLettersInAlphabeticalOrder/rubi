@@ -1,0 +1,5 @@
+words = 0
+File.open("enable1.txt").each do |line|
+	words += 1 if line.strip == line.chars.sort.join.strip
+end
+puts words
