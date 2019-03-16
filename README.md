@@ -15,6 +15,12 @@ The programs are distributed in folders depending on the dificulty:
 
 	/Month/hard
 ```
+
+
+![Alt text](2019/04.March/hard/099.AnimatedunemploymentmapoftheUnitedStates/LowOutput.gif?raw=true "Example")
+
+
+
 Each file number its related with the nº of challenge in dailyprogrammer webpage.
 At the same time, each month has its own folder, where I'll maybe post the vessel logbook.
 
