@@ -1,6 +1,18 @@
 #!/usr/bin/python
 import cairosvg
 import imageio
+import sys
+
+quality = input("Low quality (1) or High (2): ")
+if (quality == '1'):
+	quality = 0.25
+	print("final file size = 6mb aprox")
+elif (quality == '2'):
+	quality = 1
+	print("final file size = 48mb aprox")
+else:
+	print("invalid.")
+	exit()
 
 grey = "#d3d3d3"
 orangeWhite = "#ffff"
@@ -25,7 +37,6 @@ loadStates(importFile, states)
 images = []
 # statIndex = selected year
 for statIndex in range(1, len(states)):
-
 #	if statIndex == 100:
 #		break
 	print(statIndex,"/",len(states))
@@ -68,6 +79,6 @@ for statIndex in range(1, len(states)):
 		f.close()
 
 	s = open("Tests.svg").read()
-	cairosvg.svg2png(bytestring=s,write_to='output.png')
+	cairosvg.svg2png(bytestring=s,write_to='output.png', scale=quality)
 	images.append(imageio.imread('output.png'))
-imageio.mimwrite('output.gif', images, 'GIF',duration=0.1)
+imageio.mimwrite('output.gif', images, 'GIF',duration=0.2)
