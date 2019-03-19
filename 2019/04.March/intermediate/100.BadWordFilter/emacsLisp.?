@@ -1,0 +1,10 @@
+(defun censor (file)
+  (interactive "fWord list: ")
+  (let* ((words (with-temp-buffer (insert-file-contents file) (buffer-string)))
+         (bad-list (regexp-opt (split-string words "\n"))))
+    (save-excursion
+      (while (re-search-forward bad-list nil t)
+        (let ((a (match-beginning 0))
+              (b (match-end 0)))
+          (replace-match (concat (char-to-string (char-after a))
+                                 (make-string (- b a 1) ?*))))))))
