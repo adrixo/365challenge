@@ -1,0 +1,21 @@
+una señal gps informa de las posiciones de un bus...
+notificar cuando este atraviesa cierta zona...
+
+
+Los pasos necesarios para habilitar la zona y recibir eventos de la API de geofencing son:
+1. Crear una clase que implemente la interfaz IgeofencingObserver para recibir los eventos.
+2. Instanciar un objeto de la clase Geofencing.
+3. Crear un vector con las coordenadas de los puntos.
+4. Añadir dichos puntos al objeto de la clase Geofencing.
+5. Habilitar la zona para que pueda recibir eventos.
+6. Suscribirse a los eventos del objeto de la clase de Geofencing pasando como argumento el puntero de la clase que implementaba la interfaz.
+7. Implementar la lógica del semáforo.
+
+Para cambiar el estado del LED los pasos son:
+1. Instanciar un objeto de la clase Mcu.
+2. Llamar al método correspondiente que configura el led pasando por parámetro el handler de la función que devuelve el resultado de la operación, el color del led, el periodo y el ciclo.
+
+Para enviar un SMS los pasos son:
+1. Instanciar un objeto de la clase Sms.
+2. Llamar al método correspondiente que envía el SMS pasando por parámetro, el
+mensaje, el número de teléfono y el handler de la función de confirmación.
