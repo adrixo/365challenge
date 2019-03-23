@@ -1,0 +1,2 @@
+
+Select[Range[1000, 2013], Length[Union[IntegerDigits[#]]] == 4 &]
